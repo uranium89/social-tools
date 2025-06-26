@@ -58,6 +58,14 @@ export const platforms = [
     maxLength: 5000,
     guidelines: 'Mô tả video chi tiết. SEO friendly. Call-to-action rõ ràng.',
     features: ['seo', 'descriptions', 'cta']
+  },
+  {
+    id: 'zalo',
+    name: 'Zalo',
+    color: '#0068FF',
+    maxLength: 1000,
+    guidelines: 'Nền tảng nhắn tin và mạng xã hội phổ biến nhất Việt Nam. Thân thiện, gần gũi.',
+    features: ['messaging', 'stickers', 'groups', 'vietnamese']
   }
 ]
 
@@ -156,6 +164,16 @@ export const platformInstructions = {
     - Call-to-action subscribe và like
     - Links đến social media khác
     - Playlist suggestions
+  `,
+  zalo: `
+    Hướng dẫn cho Zalo:
+    - Sử dụng tiếng Việt tự nhiên, thân thiện
+    - Phù hợp với văn hóa Việt Nam
+    - Có thể sử dụng sticker và emoji phù hợp
+    - Nội dung ngắn gọn, dễ đọc trên mobile
+    - Khuyến khích tương tác trong nhóm
+    - Tone gần gũi, như trò chuyện với bạn bè
+    - Tránh quá chính thức hoặc xa cách
   `
 }
 

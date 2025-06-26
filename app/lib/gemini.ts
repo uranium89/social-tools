@@ -74,7 +74,8 @@ function createPrompt(content: string, tone: string, platform: string, customPro
     instagram: 'Instagram - caption hấp dẫn, hashtag 5-10 cái, visual-friendly',
     linkedin: 'LinkedIn - chuyên nghiệp, chia sẻ insights, industry hashtags',
     tiktok: 'TikTok - ngắn gọn, trendy, Gen Z language, hashtag challenges',
-    youtube: 'YouTube - mô tả chi tiết, SEO keywords, call-to-action'
+    youtube: 'YouTube - mô tả chi tiết, SEO keywords, call-to-action',
+    zalo: 'Zalo - thân thiện gần gũi, văn hóa Việt Nam, ngắn gọn dễ đọc, tone như trò chuyện với bạn'
   }
 
   let prompt = `
