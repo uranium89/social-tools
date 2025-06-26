@@ -2,7 +2,6 @@ import './globals.css'
 import { Toaster } from 'react-hot-toast'
 import Navigation from './components/Navigation'
 import { Analytics } from "@vercel/analytics/next"
-<Analytics/>
 export const metadata = {
   title: 'Social Tools - Công cụ Chia sẻ Mạng Xã hội',
   description: 'Tạo và chia sẻ nội dung trên các nền tảng mạng xã hội một cách thông minh',
@@ -33,6 +32,7 @@ export default function RootLayout({
             },
           }}
         />
+        <Analytics/>
       </body>
     </html>
   )
